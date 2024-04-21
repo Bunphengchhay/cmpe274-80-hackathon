@@ -8,6 +8,8 @@
     In this section, we developed information retrieval systems where the application can retrieve information from the submission documents. It could be images, pdf, word docs, or text files. The application then use deep learning models to extract data from the submission documents and return it to the users. 
 
 ## Technical Aspect
+Colab Notebook is available for preview download, and the final solution will be implemented using Python programming languages, MatplotLib, Haystack, and Transformer.
+
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Bunphengchhay/cmpe274-80-hackathon/blob/main/hackathon102-2.ipynb)
 
 ## Data Visualization
@@ -22,7 +24,7 @@ Key Features of the Visualization:
 
 This visualization serves as a foundational tool for analysts and stakeholders to observe market trends and make informed decisions regarding commodity investments and procurement.
 
-![Alt text](plot.png "Optional title")
+![Alt text](./artifact/plot.png "Optional title")
 
 ## Question answering system
 
@@ -34,7 +36,7 @@ Technical Implementation:
 3.	Question Answering: Utilizes the deepset/roberta-base-squad2 model within Haystack to answer queries. This model is specifically fine-tuned for the question-answering tasks on the SQuAD dataset.
 4. Text Summarization: Utilized Transformer "t5-small" for text summarization to ensure the extracted information is complete and in human readable format instead of json, xml, or others.
 
-![Alt text](QA.png "Optional title")
+![Alt text](./artifact/QA.png "Optional title")
 
 
 ## Executive Report
@@ -42,7 +44,7 @@ Technical Implementation:
 The executive summary contains the information that has been extracted from the chatbot system above.
 
 
-![Alt text](executivesummary.png "Optional title")
+![Alt text](./artifact/executivesummary.png "Optional title")
 
 ## Citation
 
