@@ -8,6 +8,8 @@
     In this section, we developed information retrieval systems where the application can retrieve information from the submission documents. It could be images, pdf, word docs, or text files. The application then use deep learning models to extract data from the submission documents and return it to the users. 
 
 ## Technical Aspect
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Bunphengchhay/cmpe274-80-hackathon/blob/main/hackathon102-2.ipynb)
+
 ## Data Visualization
 
 The initial part of the project involves visualizing the Producer Price Index by Commodity for Chemicals and Allied Products, particularly phosphoric acid and phosphate fertilizers. This visualization is achieved through the use of Python's Plotly library, allowing for an interactive graphical representation of price trends over time. The data is sourced from a CSV file stored on Google Drive, showcasing the integration of cloud storage with data analytics.
